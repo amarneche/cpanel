@@ -1,0 +1,17 @@
+{
+    "name": "amarneche/cpanel-api",
+    "autoload": {
+        "psr-4": {
+            "Amarneche\\CpanelApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Amar Neche",
+            "email": "amarneche@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "7.0"
+    }
+}
