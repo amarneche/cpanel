@@ -8,10 +8,20 @@
     "authors": [
         {
             "name": "Amar Neche",
-            "email": "amarneche@gmail.com"
+            "email": "contact@amarneche.me"
         }
     ],
     "require": {
         "guzzlehttp/guzzle": "7.0"
+    },
+    "extra": {
+        "laravel":{
+            "providers":[
+                "Amarneche\\CpanelApi\\CpanelServiceProvider"
+            ],
+            "aliases":[
+                "Amarneche\\CpanelApi\\Cpanel"
+            ]
+        }
     }
 }
