@@ -8,7 +8,7 @@ class CpanelServiceProvider extends ServiceProvider{
 
     public function boot() {
         $this->publishes([
-            __DIR__ . '/config/cpanel.php'=>config_path('cpanel.php'),
+            __DIR__ . '../config/cpanel.php'=>config_path('cpanel.php'),
         ]);
     }
     public function register (){
