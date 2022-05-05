@@ -1,5 +1,6 @@
 {
     "name": "amarneche/cpanel-api",
+    "description": "Simple Collection of  api calls to manage Cpanel account using URLS",
     "autoload": {
         "psr-4": {
             "Amarneche\\CpanelApi\\": "src/"
